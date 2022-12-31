@@ -147,7 +147,7 @@ class Bullet {
 class Player {
   constructor(x, y, w, h) {
     const img = new Image();
-    img.src = "/assets/player.png";
+    img.src = "docs/assets/player.png";
     this.sprite = img;
     this.w = w;
     this.h = h;
@@ -194,7 +194,7 @@ class Player {
 class Enemy {
   constructor(x, y, w, h) {
     const img = new Image();
-    img.src = "/assets/enemy.png";
+    img.src = "docs/assets/enemy.png";
     this.sprite = img;
     this.w = w;
     this.h = h;
